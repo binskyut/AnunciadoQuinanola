@@ -8,12 +8,16 @@ body {
     padding-top: 35px;
 }
 
+h2 {
+    color: purple    
+}
+
 /* Header */
 .header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background:  rgb(195, 224, 214);
+    background:  rgb(201, 229, 220);
     padding: 10px;
     border-bottom: 2px solid #000000;
     position: fixed;
@@ -91,6 +95,7 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     font-weight: bold;
     background-color: rgb(219, 249, 239);
+    border: 1px solid black;
 }
 
 .sidebar ul {
@@ -135,6 +140,7 @@ body {
     background: white;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 1px solid black;
 }
 
 .posts {
@@ -177,12 +183,37 @@ body {
     color: #666;
 }
 
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.pagination button {
+    background-color:gray;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.pagination button:hover {
+    background-color: #5fabf7;
+}
+
+
 /* Post Content */
 .post-content {
     width: 40%;
-    background: white;
+    background: rgb(247, 246, 246);
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 1px solid black;
 }
 
 .comments {
