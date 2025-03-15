@@ -104,6 +104,24 @@ body {
     padding: 8px 0;
 }
 
+.box {
+    background-color:  rgb(188, 224, 212);
+    border: 1px solid #a3d2dc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.box h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.box p {
+    font-size: 12px;
+    color: #666;
+}
+
 /* Main Post List */
 .content {
     width: 45%;
