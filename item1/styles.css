@@ -30,9 +30,11 @@ body {
 
 /* News Section Layout */
 .news-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 800px;
     gap: 20px;
-    align-items: flex-start;
+    justify-content: center;
     padding: 20px;
 }
 
@@ -45,6 +47,8 @@ body {
     background: #e0e0e0;
     padding: 15px;
     border-radius: 8px;
+    max-width: fit-content;
+    max-height: fit-content;
 }
 
 /* For Card Styling */
