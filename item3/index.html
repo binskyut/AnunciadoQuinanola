@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omelette Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Easy Yummy Omelette Recipe</h1>
+        <p>A step-by-step guide to preparing a delicious omelette.</p>
+    </header>
+
+    <nav aria-label="Recipe Navigation">
+        <ul>
+            <li><a href="#step1">Step 1: Prepare the Eggs</a></li>
+            <li><a href="#step2">Step 2: Heat the Pan</a></li>
+            <li><a href="#step3">Step 3: Cook the Eggs</a></li>
+            <li><a href="#step4">Step 4: Add Fillings</a></li>
+            <li><a href="#step5">Step 5: Fold and Serve</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="step1" class="step" tabindex="0">
+            <h2>Step 1: Prepare the Eggs</h2>
+            <img src="images/image1.webp" alt="Beating eggs in a bowl" class="step-image">
+            <p>In a medium bowl, combine the eggs with water, a generous pinch of salt, and a few grinds of pepper. Using a fork, beat until well combined.</p>
+            <nav class="step-navigation">
+                <a href="#step2" class="next">Next: Heat the Pan</a>
+            </nav>
+        </section>
+
+        <section id="step2" class="step" tabindex="0">
+            <h2>Step 2: Heat the Pan</h2>
+            <img src="images/butter.webp" alt="Beating eggs in a bowl" class="step-image">
+            <p>In a small nonstick skillet over medium-low heat, melt the butter and swirl to coat the whole surface of the pan.</p>
+            <nav class="step-navigation">
+                <a href="#step1" class="prev">Back: Prepare the Eggs</a>
+                <a href="#step3" class="next">Next: Cook the Eggs</a>
+            </nav>
+        </section>
+
+        <section id="step3" class="step" tabindex="0">
+            <h2>Step 3: Cook the Eggs</h2>
+            <img src="images/image3.webp" alt="Beating eggs in a bowl" class="step-image">
+            <p>Add the eggs to the pan and let cook, undisturbed, until they start to set around the edges. Then, use a rubber spatula to move the cooked egg away from the edges, letting the raw egg run to the outside of the pan.</p>
+            <nav class="step-navigation">
+                <a href="#step2" class="prev">Back: Heat the Pan</a>
+                <a href="#step4" class="next">Next: Add Fillings</a>
+            </nav>
+        </section>
+
+        <section id="step4" class="step" tabindex="0">
+            <h2>Step 4: Add Fillings</h2>
+            <img src="images/cheese.webp" alt="Beating eggs in a bowl" class="step-image">
+            <p>Once the eggs are about 75% set, sprinkle cheese and herbs all over. Let cook until the cheese is mostly melted.</p>
+            <nav class="step-navigation">
+                <a href="#step3" class="prev">Back: Cook the Eggs</a>
+                <a href="#step5" class="next">Next: Fold and Serve</a>
+            </nav>
+        </section>
+
+        <section id="step5" class="step" tabindex="0">
+            <h2>Step 5: Fold and Serve</h2>
+            <img src="images/serve.webp" alt="Beating eggs in a bowl" class="step-image">
+            <p>Using the spatula, fold the omelette in half or into thirds. Slide it onto a plate and serve immediately.</p>
+            <nav class="step-navigation">
+                <a href="#step4" class="prev">Back: Add Fillings</a>
+                <a href="#step1" class="restart">Restart Recipe</a>
+            </nav>
+        </section>
+    </main>
+</body>
+</html>
