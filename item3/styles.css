@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #dcdbdb;
+}
+
+header {
+    font-family: 'Roboto',  sans-serif;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 2px;
+    text-align: center;
+}
+
+nav[aria-label="Recipe Navigation"] {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav[aria-label="Recipe Navigation"] ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav[aria-label="Recipe Navigation"] ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav[aria-label="Recipe Navigation"] ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.step {
+    display: none;
+}
+
+.step img {
+    width: 100%; /* Ensures responsiveness */
+    max-width: 600px; /* Prevents overly large images */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; 
+    margin: 10px 0;
+}
+
+
+.step:target {
+    display: block;
+}
+
+.step-navigation {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.step-navigation a {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.step-navigation a:hover {
+    background-color: #ffdd33;
+}
+
+.step-navigation a:focus {
+    outline: 2px solid #333;
+}
+
+.step[aria-hidden="true"] {
+    display: none;
+}
